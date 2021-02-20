@@ -14,12 +14,12 @@ var imageObj1 = new Image();
 var imageObj2 = new Image();
 imageObj1.src = "https://gitzzenith.github.io/Misc/mockup.png"
 imageObj1.onload = function() {
-ctx.drawImage(imageObj1, 0, 0, 328, 526);
+ctx.drawImage(imageObj1, 0, 0, 1920, 1820);
 imageObj2.src = "https://gitzzenith.github.io/Misc/textonly.png";
 imageObj2.onload = function() {
-    ctx.drawImage(imageObj2, 15, 85, 300, 300);
+    ctx.drawImage(imageObj2, 0, 0, 1920, 1820);
     var img = c.toDataURL("image/png");
-    document.write('<img src="' + img + '" width="328" height="526"/>');
+    document.write('<img src="' + img + '" width="1920" height="1820"/>');
     }
 };
 </source>
